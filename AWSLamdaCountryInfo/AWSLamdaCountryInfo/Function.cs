@@ -45,6 +45,7 @@ namespace AWSLamdaCountryInfo
                     context.Logger.LogLine($"The country was not understood.");
                     return MakeSkillResponse("I'm sorry, but I didn't understand the country you were asking for. Please ask again.", false);
                 }
+                //Just for fun..!
                 //if(countryRequested == "I love you")
                 //{
                 //    return MakeSkillResponse("Bhag yaha se. I respect your feelings but I am sorry.", false);
